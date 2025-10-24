@@ -182,7 +182,7 @@ Then let's modify src/index.ts to load the .env file using dotenv:
 // src/index.ts
 import "dotenv/config";
 
-console.log(process.env.OPENAI_API_KEY);
+console.log(process.env.YOUR_API_KEY);
 ```
 
 Now update the package.json scripts accordingly:
